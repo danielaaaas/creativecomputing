@@ -9,16 +9,19 @@ body {
 h1 {
   color: #CB0FFF;
   font-family: 'Papyrus';
+  cursor: url("https://cdn.custom-cursor.com/db/19894/color-pixels-wand-cursor.png"), auto;
 }
 
 h2 {
   color: #CB0FFF;
   font-family: 'Papyrus';
+  cursor: url("https://cdn.custom-cursor.com/db/19894/color-pixels-wand-cursor.png"), auto;
 }
 
 h3 {
   color: #CB0FFF;
   font-family: 'Papyrus';
+  cursor: url("https://cdn.custom-cursor.com/db/19894/color-pixels-wand-cursor.png"), auto;
 }
 
 .section{
@@ -29,6 +32,7 @@ h3 {
   background-color: floralwhite;
   padding: 15px;
   margin-bottom: 20px;
+  cursor: url("https://cdn.custom-cursor.com/db/19894/color-pixels-wand-cursor.png"), auto;
 }
 
 .section:hover {
