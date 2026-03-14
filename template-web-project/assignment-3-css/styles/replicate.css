@@ -1,4 +1,29 @@
 h3 {
-  color: #9d0808;
-  font-family: 'Inter';
+  color:black;
+  font-family: inter;
+}
+
+body {
+  color: black;
+  font-family: inter;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left, .right {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.left {
+  background-color: white;
+}
+
+.right {
+  background-color: gray;
+  color: white;
 }
