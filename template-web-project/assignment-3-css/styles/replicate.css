@@ -3,6 +3,33 @@ h3 {
   font-family: inter;
 }
 
+header {
+  border-bottom: 0.1px solid rgba(0, 0, 0, 0.2);
+  background-clip: padding-box;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 10px 20px;
+  background-color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+
+  text-decoration: none;
+  color: black;
+  font-family: inter;
+}
+
+nav:hover {
+  color:pink;
+  text-decoration:underline;
+}
+
 body {
   color: black;
   font-family: inter;
@@ -21,6 +48,7 @@ body {
 
 .left {
   background-color: white;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
