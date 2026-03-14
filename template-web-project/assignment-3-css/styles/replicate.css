@@ -20,12 +20,18 @@ nav {
   gap: 28px;
   align-items: center;
 
-  text-decoration: none;
+}
+
+/* honestly...the style wouldn't work under nav but 
+needed a separate 'nav a' title to work */
+
+nav a {
   color: black;
+  text-decoration: none;
   font-family: inter;
 }
 
-nav:hover {
+nav a:hover {
   color:pink;
   text-decoration:underline;
 }
