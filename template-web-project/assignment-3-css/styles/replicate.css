@@ -21,6 +21,8 @@ body {
 
 .left {
   background-color: white;
+  justify-content: center;
+  align-items: center;
 }
 
 .right {
