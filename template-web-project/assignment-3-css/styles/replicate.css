@@ -12,8 +12,8 @@ h2 {
 
 header {
   border-bottom: 0.1px solid rgba(0, 0, 0, 0.2);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
-  clip-path: inset(0px 0px -8px 0px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  clip-path: inset(0px 0px -20px 0px);
   padding: 10px 20px;
   background-color: white;
 
