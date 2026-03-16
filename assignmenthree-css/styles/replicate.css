@@ -42,7 +42,7 @@ nav a, nav a:link, nav a:visited {
 and underline when i added links */
 
 nav a:hover {
-  color:pink;
+  color: #8C1946;
   text-decoration:underline;
 }
 
