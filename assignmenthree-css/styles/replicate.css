@@ -26,7 +26,6 @@ nav {
   display: flex;
   gap: 28px;
   align-items: center;
-
 }
 
 /* honestly...the style wouldn't work under nav but 
@@ -44,9 +43,10 @@ and underline when i added links */
 nav a:hover {
   color: #8C1946;
   text-decoration:underline;
-  /* had it pink originally, but magenta seems more like
-  the color on the image example */
 }
+
+/* had it pink originally, but magenta seems more like
+the color on the image example */
 
 body {
   color: black;
@@ -56,10 +56,11 @@ body {
 .container {
   display: flex;
   height: calc(100vh - 60px);
-  /* needed to subtract the height of the header;
-  the left container was slightly lower than center and 
-  that was throwing me off */
 }
+
+/* needed to subtract the height of the header;
+the left container was slightly lower than center and 
+that was throwing me off */
 
 .left, .right {
   flex: 1;
