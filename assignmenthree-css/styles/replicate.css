@@ -44,6 +44,8 @@ and underline when i added links */
 nav a:hover {
   color: #8C1946;
   text-decoration:underline;
+  /* had it pink originally, but magenta seems more like
+  the color on the image example */
 }
 
 body {
