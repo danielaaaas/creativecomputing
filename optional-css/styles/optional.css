@@ -5,7 +5,7 @@ h1, h3 {
   font-size: 70px;
 }
 
-header {
+/* header {
   border-bottom: 0.1px solid rgba(0, 0, 0, 0.2);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
   clip-path: inset(0px 0px -20px 0px);
@@ -15,7 +15,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+} */
 
 body {
   color: #EF5504;
@@ -36,13 +36,8 @@ body {
   flex-direction: column;
 }
 
-/* needed to subtract the height of the header;
-the left container was slightly lower than center and 
-that was throwing me off */
-
 .one, .two {
   flex: 1;
-  padding: 10px;
   box-sizing: border-box;
 }
 
@@ -86,10 +81,22 @@ that was throwing me off */
   flex: 1;
 }
 
+.row {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.rectangleflat {
+  height: 40px;
+  width: 50px;
+  background-color: #AB7255;
+  display: inline-block;
+}
+
 .rectangle {
   height: 100px;
   width: 50px;
   background-color: #AB7255;
+  display: inline-block;
 }
-
-/* test */
