@@ -17,32 +17,6 @@ header {
   align-items: center;
 }
 
-/* nav {
-  display: flex;
-  gap: 28px;
-  align-items: center;
-} */
-
-/* honestly...the style wouldn't work under nav but 
-needed a separate 'nav a' title to work */
-
-/* nav a, nav a:link, nav a:visited {
-  color: black;
-  text-decoration: none;
-  font-family: 'Figtree';
-} */
-
-/* added link and visited because the text defaulted to blue
-and underline when i added links */
-
-/* nav a:hover {
-  color: #8C1946;
-  text-decoration:underline;
-} */
-
-/* had it pink originally, but magenta seems more like
-the color on the image example */
-
 body {
   color: #EF5504;
   font-family: 'Figtree';
@@ -59,6 +33,7 @@ body {
 
 .container {
   display: flex;
+  flex-direction: column;
 }
 
 /* needed to subtract the height of the header;
@@ -85,7 +60,6 @@ that was throwing me off */
 
 .containertwo {
   display: flex;
-  height: calc(100vh - 60px);
 }
 
 .left, .right {
@@ -96,16 +70,24 @@ that was throwing me off */
 
 .left {
   background-color: #F8F5E4;
+  flex-direction: column;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex: 1;
 }
-
-/* testing? */
 
 .right {
   background-color: #F8F5E4;
   color: #EF5504;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
   flex: 1;
+}
+
+.rectangle {
+  height: 100px;
+  width: 50px;
+  background-color: #AB7255;
 }
