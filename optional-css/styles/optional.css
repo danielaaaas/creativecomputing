@@ -23,6 +23,12 @@ body {
   color: #EF5504;
   font-family: 'Figtree';
   background-color: #F8F5E4;
+  min-width: 1000px;
+  overflow-x: hidden;
+}
+
+.lineone, .linetwo {
+  width: 100%;
 }
 
 .lineone {
@@ -36,6 +42,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
+  min-width: 1000px;
 }
 
 .one, .two {
@@ -57,15 +64,14 @@ body {
 
 .containertwo {
   display: flex;
-  align-items: flex-end;
+ /*  align-items: flex-end; */
 
 }
 
-/* .left, .right {
-  flex: 1;
-  padding: 20px;
-  box-sizing: border-box;
-} */
+.left, .right {
+  width: 50%;
+  flex: none;
+}
 
 .left {
   background-color: #F8F5E4;
@@ -75,7 +81,7 @@ body {
   align-items: flex-start;
   flex: 1;
   padding: 20px;
-  min-height: 412px;
+  padding-top: 50px;
 }
 
 .right {
