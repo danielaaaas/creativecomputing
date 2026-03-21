@@ -5,18 +5,6 @@ h1, h3 {
   font-size: 70px;
 }
 
-/* header {
-  border-bottom: 0.1px solid rgba(0, 0, 0, 0.2);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-  clip-path: inset(0px 0px -20px 0px);
-  padding: 10px 20px;
-  background-color: #F8F5E4;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-} */
-
 body {
   color: #EF5504;
   font-family: 'Figtree';
@@ -38,6 +26,7 @@ body {
 
 .one, .two {
   flex: 1;
+  padding: 10px, 40px;
   box-sizing: border-box;
 }
 
