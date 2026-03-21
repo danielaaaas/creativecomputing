@@ -1,0 +1,105 @@
+h1, h3 {
+  color: #EF5504;
+  font-family: 'Figtree';
+  font-weight: normal;
+  font-size: 80px;
+}
+
+header {
+  border-bottom: 0.1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  clip-path: inset(0px 0px -20px 0px);
+  padding: 10px 20px;
+  background-color: #F8F5E4;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* nav {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+} */
+
+/* honestly...the style wouldn't work under nav but 
+needed a separate 'nav a' title to work */
+
+/* nav a, nav a:link, nav a:visited {
+  color: black;
+  text-decoration: none;
+  font-family: 'Figtree';
+} */
+
+/* added link and visited because the text defaulted to blue
+and underline when i added links */
+
+/* nav a:hover {
+  color: #8C1946;
+  text-decoration:underline;
+} */
+
+/* had it pink originally, but magenta seems more like
+the color on the image example */
+
+body {
+  color: #EF5504;
+  font-family: 'Figtree';
+  background-color: #F8F5E4;
+}
+
+.lineone {
+    border-top: 10px solid #F7581E;
+}
+
+.linetwo { 
+    border-top: 6px solid #F8AF8C;
+}
+
+.container {
+  display: flex;
+  height: calc(100vh - 60px);
+}
+
+/* needed to subtract the height of the header;
+the left container was slightly lower than center and 
+that was throwing me off */
+
+.one, .two {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.one {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.two { 
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.left, .right {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.left {
+  background-color: #F8F5E4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.right {
+  background-color: gray;
+  color: #F8F5E4;
+  flex: 1;
+}
