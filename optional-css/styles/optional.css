@@ -3,6 +3,7 @@ h1, h3 {
   font-family: 'Figtree';
   font-weight: normal;
   font-size: 70px;
+  margin: 0px;
 }
 
 body {
@@ -25,7 +26,6 @@ body {
 }
 
 .one, .two {
-  flex: 1;
   padding: 10px, 40px;
   box-sizing: border-box;
 }
