@@ -2,7 +2,7 @@ h1, h3 {
   color: #EF5504;
   font-family: 'Figtree';
   font-weight: normal;
-  font-size: 80px;
+  font-size: 70px;
 }
 
 header {
@@ -59,7 +59,6 @@ body {
 
 .container {
   display: flex;
-  height: calc(100vh - 60px);
 }
 
 /* needed to subtract the height of the header;
@@ -74,14 +73,19 @@ that was throwing me off */
 
 .one {
     display: flex;
-    justify-content: left;
-    align-items: flex-start;
+    justify-content: center;
+    white-space: nowrap;
 }
 
 .two { 
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    justify-content: flex-end;
+    white-space: nowrap;
+}
+
+.containertwo {
+  display: flex;
+  height: calc(100vh - 60px);
 }
 
 .left, .right {
