@@ -9,6 +9,7 @@ h2 {
   color: #EF5504;
   font-family: 'Figtree';
   font-size: 70px;
+  font-weight: normal;
   margin: 0px;
 }
 
@@ -64,8 +65,7 @@ body {
 
 .containertwo {
   display: flex;
-  height: 500px;
-
+  height: 452px;
 }
 
 .left, .right {
